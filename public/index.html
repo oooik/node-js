@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Mahasiswa</title>
+    <link rel="stylesheet" href="mhs.css" />
+    <script src="mhs.js"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Formulir Mahasiswa</h2>
+      <form id="form-mahasiswa">
+        <!-- <label for="id">ID:</label>
+        <input type="text" id="id" name="id" /><br /> -->
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" /><br />
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br />
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" /><br />
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <select id="jenis_kelamin" name="jenis_kelamin">
+          <option value="">Pilih</option>
+          <option value="Laki-laki">Laki-laki</option>
+          <option value="Perempuan">Perempuan</option></select
+        ><br />
+        <label for="jurusan">Jurusan:</label>
+        <input type="text" id="jurusan" name="jurusan" /><br />
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" name="semester" /><br />
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat"></textarea><br />
+        <label for="no_hp">No. HP:</label>
+        <input type="tel" id="no_hp" name="no_hp" /><br />
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto" /><br />
+        <label for="status_aktif">Status Aktif:</label>
+        <select id="status_aktif" name="status_aktif">
+          <option value="">Pilih</option>
+          <option value="Aktif">Aktif</option>
+          <option value="Tidak Aktif">Tidak Aktif</option></select
+        ><br />
+        <button id="submit">Simpan</button>
+      </form>
+    </div>
+  </body>
+</html>
